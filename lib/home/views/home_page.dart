@@ -52,6 +52,11 @@ class HomePage extends GetView<HomeController> {
                             color: Colors.blue,
                             icon: Icons.settings_rounded,
                           ),
+                          const SizedBox(height: 12),
+                          Text(
+                            "*Functionality only works on iOS platform",
+                            style: Get.textTheme.titleSmall,
+                          ),
                         ],
                       ),
                     ),
